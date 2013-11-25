@@ -17,7 +17,8 @@ int CalcValue( int a, int b, char symbol )
 			returnValue -= b;
 			break;
 		case '0':
-			returnValue = b;
+			printf("例外：CalcValueないぶ\n")
+			returnValue;
 			break;
 	}
 	

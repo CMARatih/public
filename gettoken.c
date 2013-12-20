@@ -44,7 +44,6 @@ static enum tokType gettok(char *buf, int bufsize)
 		index++;
 
 		// 演算子の場合
-		// -> bufに格納し、tokTypeを返す。
 		switch(c) {
 			case '+': return OpPlus;
 			case '-': return OpMinus;

@@ -79,10 +79,9 @@ int main()
 		printf("tok = %d; buf = [%s]\n", tok, buf);
 		
 		int i;
-        for(i = 0; i < 100; i++){
-        	buf[i] = 0;
-        }
-            
+		for(i = 0; i < 100; i++) {
+			buf[i] = 0;
+		}
 	}
 	
 	return 0;
